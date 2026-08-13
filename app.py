@@ -1,6 +1,6 @@
 import streamlit as st 
 import requests 
-API_KEY = st.secrets["447c2095"]
+API_KEY = "447c2095"
 # 1. The Web UI 
 st.title("🍿 Princess's Cinema") 
 movie_title = st.text_input("Enter a movie title:") 

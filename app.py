@@ -15,7 +15,7 @@ if search_button:
     # Fetch the data 
     response = requests.get("http://www.omdbapi.com/", params=order_details) 
     data = response.json() 
-    if data["Response"] == "False":
+    if data["Response"] == "True":
 	    # 3. Display the results on the webpage 
 	    st.divider() # Draws a cool horizontal line 
 	    # Make the title big 

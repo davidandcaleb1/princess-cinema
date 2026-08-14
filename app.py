@@ -2,7 +2,7 @@ import streamlit as st
 import requests 
 API_KEY = "447c2095"
 # 1. The Web UI 
-st.title("🍿 Princess's Cinema") 
+st.title("🍿 David's Cinema") 
 movie_title = st.text_input("Enter a movie title:") 
 search_button = st.button("Search") 
 # 2. The Logic (What happens when clicked) 
